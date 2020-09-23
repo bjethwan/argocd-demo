@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
   name: redblue
-  namespace: bipin
+  namespace: app1
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
