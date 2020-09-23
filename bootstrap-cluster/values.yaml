@@ -2,5 +2,6 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-cluster: https://kubernetes.default.svc
+cluster: https://api.k8s2.ap-south-1.bjethwan.xyz
 project: default
+
