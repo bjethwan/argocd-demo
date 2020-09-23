@@ -13,6 +13,7 @@ spec:
   source:
     chart: kibana
     helm:
+      createNamespace: true
       valueFiles:
       - values.yaml
     repoURL: https://helm.elastic.co

@@ -13,6 +13,7 @@ spec:
   source:
     chart: couchbase-operator
     helm:
+      createNamespace: true
       valueFiles:
       - values.yaml
     repoURL: https://couchbase-partners.github.io/helm-charts/

@@ -11,6 +11,7 @@ spec:
   source:
     chart: prometheus-operator
     helm:
+      createNamespace: true
       valueFiles:
       - values.yaml
     repoURL: https://kubernetes-charts.storage.googleapis.com/

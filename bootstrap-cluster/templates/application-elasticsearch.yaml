@@ -13,6 +13,7 @@ spec:
   source:
     chart: elasticsearch
     helm:
+      createNamespace: true
       valueFiles:
       - values.yaml
     repoURL: https://helm.elastic.co
