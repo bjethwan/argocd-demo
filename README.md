@@ -1,1 +1,1 @@
-# gitops-examples
+# argocd-demo
